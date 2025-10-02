@@ -2,4 +2,4 @@
 
 ## Exercice 1 :
 
-<img src="linuxscreen/Ex1 -débutant.png">
+<img src="/Linux-poste-client/linuxscreen/Ex1 -débutant.png">
