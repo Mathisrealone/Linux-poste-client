@@ -19,3 +19,9 @@ Ensuite, j’ai utilisé la commande tail -n 10 /var/log/syslog afin d’affiche
 Et pour finir, j’ai utilisé la commande grep 'error' /var/log/syslog afin de rechercher toutes les lignes contenant le mot error dans le fichier de log système syslog.
 
 <img src="/Linux-poste-client/linuxscreen/Ex2 - débutant (3).png">
+
+## Exercice 3 :
+
+Pour cet exercice, j’ai créé un fichier secret.txt dans le dossier Documents. J’ai affiché les permissions des fichiers avec ls -l et j’ai remarqué que secret.txt était accessible en lecture et écriture pour tous. J’ai donc modifié ses permissions avec chmod 600 secret.txt pour que seul mon utilisateur puisse lire et écrire dans ce fichier.
+
+<img src="/Linux-poste-client/linuxscreen/Ex3 - débutant .png">
