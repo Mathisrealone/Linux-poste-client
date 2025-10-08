@@ -25,3 +25,19 @@ Et pour finir, j’ai utilisé la commande grep 'error' /var/log/syslog afin de 
 Pour cet exercice, j’ai créé un fichier secret.txt dans le dossier Documents. J’ai affiché les permissions des fichiers avec ls -l et j’ai remarqué que secret.txt était accessible en lecture et écriture pour tous. J’ai donc modifié ses permissions avec chmod 600 secret.txt pour que seul mon utilisateur puisse lire et écrire dans ce fichier.
 
 <img src="/Linux-poste-client/linuxscreen/Ex3 - débutant .png">
+
+## Exercice 4 :
+
+Pour cet exercice, j’ai utilisé htop, une interface interactive en ligne de commande qui permet de visualiser et gérer les processus en cours d’exécution.
+
+<img src="/Linux-poste-client/linuxscreen/Doc3 - inter 1.png">
+
+Grâce à htop, j’ai pu afficher la liste complète des processus et trier les colonnes pour identifier celui qui utilisait le plus de RAM.
+
+<img src="/Linux-poste-client/linuxscreen/Doc3 - inter 2.png">
+
+Une fois le processus identifié, j’ai utilisé la fonctionnalité nice dans htop pour modifier sa priorité, ce qui m’a permis d’ajuster la façon dont le système alloue les ressources CPU à ce processus.
+
+<img src="/Linux-poste-client/linuxscreen/Doc3 - inter 3.png">
+
+Enfin, pour terminer j’ai sélectionné son PID et utilisé la commande de fin de processus directement depuis l’interface. Cette approche m’a permis d’effectuer toutes les manipulations de manière visuelle et sécurisée, sans avoir besoin de mémoriser les PID ou les commandes exactes en ligne de commande.
